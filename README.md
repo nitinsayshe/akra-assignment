@@ -2,18 +2,12 @@
 
 0. npm i
 1. npm start
-2. need postman 
-    1. get localhost:3000/   ------get the all user
-    2. get localhost:3000/search     --- get result based on request body. 
-        ex.{
-            "name": "col",
-            "phone": "1"
-        }
-    3. get localhost:3000/findone     ----
-    ex.{
-        "name": "Jaime Cooper"
-        }
-    4. get localhost:3000/:page  --get data by page
+2. need postman or on local browser---try api end pont as below
+
+    1. get localhost:3000/                                   ------get the all user
+    2. get localhost:3000/search?name=Jaime Cooper&phone=3    --- get result based on request body. 
+    3. get localhost:3000/findone?name=Jaime Cooper&email=donec.tempus.lorem@icloud.edu     
+    4. get localhost:3000/:3                         --get data by page
 
 
 

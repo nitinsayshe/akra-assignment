@@ -20,7 +20,7 @@ router.get("/", async (req, res) => {
 
 //get the data based on filter
 router.get("/search", async (req, res) => {
-    let { name, phone } = req.body;
+    let { name, phone } = req.query;
     database.collection('users').find({ name: { $regex: name, $options: 'i' }, phone: { $regex: phone, $options: 'i' } }).toArray((err, result) => {
         res.send(result)
     })
@@ -28,7 +28,7 @@ router.get("/search", async (req, res) => {
 
 //get the single data
 router.get("/findone", async (req, res) => {
-    let {...rest}=req.body
+    let {...rest}=req.query
     let result= await database.collection('users').findOne(rest)
     res.send(result)
 })
