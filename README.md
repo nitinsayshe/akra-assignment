@@ -1,3 +1,28 @@
+# You can run the project in local
+
+0. npm i
+1. npm start
+2. need postman 
+    1. get localhost:3000/   ------get the all user
+    2. get localhost:3000/search     --- get result based on request body. 
+        ex.{
+            "name": "col",
+            "phone": "1"
+        }
+    3. get localhost:3000/findone     ----
+    ex.{
+        "name": "Jaime Cooper"
+        }
+    4. get localhost:3000/:page  --get data by page
+
+
+
+
+
+
+
+
+
 # Backend Test Task
 
 0. Download the Attached `sample_user_data.csv` file, This is your Data source

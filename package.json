@@ -1,0 +1,25 @@
+{
+  "name": "akra-backend-test-task",
+  "version": "1.0.0",
+  "description": "0. Download the Attached `sample_user_data.csv` file, This is your Data source\r 1. You can Either Seed this into the DB of your choice or Convert it into JSON and use that",
+  "main": "index.js",
+  "scripts": {
+    "start":" node src/index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arshad-akra/akra-backend-test-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arshad-akra/akra-backend-test-task/issues"
+  },
+  "homepage": "https://github.com/arshad-akra/akra-backend-test-task#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.11.0"
+  }
+}
